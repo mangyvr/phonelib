@@ -33,4 +33,4 @@ RSpec::Core::RakeTask.new(:spec) do |t|
 end
 task :default => :spec
 
-load 'tasks/phonelib_tasks.rake'
+load 'lib/tasks/phonelib_tasks.rake'
